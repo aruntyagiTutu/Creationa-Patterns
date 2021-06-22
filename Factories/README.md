@@ -4,7 +4,6 @@ Factory Method pattern,
 Scenario: 
     - Create a product(Pizza) instance.
     - There can be different types of pizza
-    - 
 
 
 Abstract Factory pattern:
@@ -13,4 +12,4 @@ Abstract Factory pattern:
 
 
 Scenario:
-    - Create factory Pizza family. 
+    - Create factory Pizza Ingredient factory

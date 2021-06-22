@@ -12,7 +12,7 @@ namespace Pizza_Creation_With_Factory_Method
         public string sauce;
 
         public List<string> toppings = new List<string>();
-       public void Prepare()
+       public abstract void Prepare()
         {
             Console.WriteLine("Preparing " + name);
             Console.WriteLine("tossing with  " + dough + " dough");
